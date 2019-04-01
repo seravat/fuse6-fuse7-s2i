@@ -26,7 +26,7 @@
 
   <repositories>
     <repository>
-      <id>maven-group</id>
+      <id>maven-public</id>
       <url>http://nexus-nexus.192.168.64.3.nip.io/repository/maven-public/</url>
     </repository>
   </repositories>
