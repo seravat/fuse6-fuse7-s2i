@@ -11,6 +11,7 @@ Based on the fuse-karaf-openshift builder image and a github repository with a f
 ## Verify the build
 
 Get the id of the build
+
 `oc get pods`
 
 Follow the logs
