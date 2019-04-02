@@ -2,6 +2,10 @@
 
 Example of migration from fuse 6.3 standalone to fuse 7 on openshift, using the Openshift S2I tool to build and deploy the application.
 
+## Setup a binaries repository to act as a mirror
+
+`https://github.com/seravat/openshift-nexus`
+
 ## Create a new build
 
 Based on the fuse-karaf-openshift builder image and a github repository with a fuse project, create a new build on openshift:
