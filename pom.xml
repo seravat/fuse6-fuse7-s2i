@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"> 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
 
@@ -12,32 +12,11 @@
 
   <name>Customer :: Application :: Core</name>
 
-    <distributionManagement>
-        <repository>
-            <id>nx-releases</id>
-            <name>Nexus Releases</name>
-            <url>http://nexus-nexus.192.168.64.3.nip.io/repository/maven-releases</url>
-            <uniqueVersion>false</uniqueVersion>
-        </repository>
-        <snapshotRepository>
-            <id>nx-snapshots</id>
-            <url>http://nexus-nexus.192.168.64.3.nip.io/repository/maven-snapshots</url>
-            <uniqueVersion>false</uniqueVersion>
-        </snapshotRepository>
-    </distributionManagement>
-
-  <repositories>
-    <repository>
-      <id>maven-public</id>
-      <url>http://nexus-nexus.192.168.64.3.nip.io/repository/maven-public/</url>
-    </repository>
-  </repositories>
-
   <modules>
     <module>artifacts</module>
     <!-- the processors module is currently not used -->
     <!--module>processors</module-->
     <module>fuse7cxfRest</module>
   </modules>
-  
+
 </project>
